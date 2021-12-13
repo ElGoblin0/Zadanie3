@@ -57,7 +57,7 @@ int main(int argc, char *argv[])
 
         emulator_lib::setLCD(mean_value);
 
-        /* Próbowałem, ale to nie działa
+        /* Próbowałem, ale nie chciało działać tak jak powinno
         if(in1 != true || in2 != true)
         {
              if(in1)
