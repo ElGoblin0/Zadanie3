@@ -5,7 +5,7 @@ curl_time=$(date +%F-%H-%M-%S)
 curl -X POST \
 https://tom-logger.azurewebsites.net/api/log \
 -d 'LinuxClass: True' \
--d 'boxDate: $curl_time' \
+-d 'UboxDate: $curl_time' \
 
 echo "";
 
